@@ -256,9 +256,9 @@ function Display_Workers($Workers,$Array) {
 		
 		echo	'		<div class="seven columns">'."\n";
 		echo	'			<div class="nmc_arrow"><b>NMC STATS</b><span class="stats"><span class="ok_green">ACCEPTED</span> / <span class="no_red">REJECTED</span> / <span>PERCENT</span></span></div>'."\n";
-		echo	'			<div class="staggered">TOTAL <span style="float:right;"><span class="ok_green">'.$worker_nmc_t_acc.'</span> / <span class="no_red">'.$worker_nmc_t_rej.'</span> / <span>'.$worker_nmc_t_per.'</span></span></div>'."\n";
-		echo	'			<div class="staggered">ROUND <span style="float:right;"><span class="ok_green">'.$worker_nmc_r_acc.'</span> / <span class="no_red">'.$worker_nmc_r_rej.'</span> / <span>'.$worker_nmc_r_per.'</span></span></div>'."\n";
-		echo	'			<div class="staggered">CHECKPOINT <span style="float:right;"><span class="ok_green">'.$worker_nmc_c_acc.'</span> / <span class="no_red">'.$worker_nmc_c_rej.'</span> / <span>'.$worker_nmc_c_per.'</span></span></div>'."\n";		
+		echo	'			<div class="staggered">TOTAL <span class="stats" style="float:right;"><span class="ok_green">'.$worker_nmc_t_acc.'</span> / <span class="no_red">'.$worker_nmc_t_rej.'</span> / <span>'.$worker_nmc_t_per.'</span></span></div>'."\n";
+		echo	'			<div class="staggered">ROUND <span class="stats" style="float:right;"><span class="ok_green">'.$worker_nmc_r_acc.'</span> / <span class="no_red">'.$worker_nmc_r_rej.'</span> / <span>'.$worker_nmc_r_per.'</span></span></div>'."\n";
+		echo	'			<div class="staggered">CHECKPOINT <span class="stats" style="float:right;"><span class="ok_green">'.$worker_nmc_c_acc.'</span> / <span class="no_red">'.$worker_nmc_c_rej.'</span> / <span>'.$worker_nmc_c_per.'</span></span></div>'."\n";		
 		echo	'		</div>'."\n";
 		
 		echo	'</div>'."\n";
