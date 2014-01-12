@@ -11,6 +11,7 @@ Requires
 2. PHP5
 3. php5-json
 4. php5-curl
+5. BitMinter API perk to be enabled and an API key created (http://www.bitminter.com)
 
 How To Setup
 ============
