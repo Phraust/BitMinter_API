@@ -118,8 +118,8 @@ $Timeleft	=	$Timeout-(time()-$Output["timestamp"]);
 $User_Name		=	$Output["name"];
 $User_Hashrate	=	$Output["hash_rate"];
 
-$BTC_Bal		=	number_format($Output['balances.BTC'],2);
-$NMC_Bal		=	number_format($Output['balances.NMC'],2);
+$BTC_Bal		=	number_format($Output['balances.BTC'],6);
+$NMC_Bal		=	number_format($Output['balances.NMC'],6);
 
 $Active_Workers	=	$Output["active_workers"].' ONLINE';
 $Total_Workers	=	Get_Workers($Output);
